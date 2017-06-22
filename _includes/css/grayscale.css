@@ -35,6 +35,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+.logo {
+  height: 250px;
+}
 
 @media(min-width:767px) {
   p {
@@ -293,9 +296,7 @@ a:focus {
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-#logo{
-  height: 250px;
-}
+
 .btn-default {
   border: 1px solid {{ site.color.links }};
   color: {{ site.color.links }};
