@@ -37,9 +37,13 @@ p {
 }
 .logo {
   height: 250px;
+}
+.logo-margin{
   margin-bottom: -64px;
 }
-
+.slogan {
+  color: #db9b3b;
+}
 @media(min-width:767px) {
   p {
     margin: 0 0 35px;
