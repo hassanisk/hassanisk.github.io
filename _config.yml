@@ -10,6 +10,7 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
   reference: rgba(255,255,255,.2)
+  relinks: '#db9b3b'
 
 # Footer settings
 footer: Hassan Iskaf
