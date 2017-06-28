@@ -9,6 +9,7 @@ description: "Welcome to Hassan Iskaf portfolio. A creative web developer workin
 color:
   primary-dark: '#000000'
   links: '#219ab3'
+  reference: rgba(255,255,255,.2)
 
 # Footer settings
 footer: Hassan Iskaf

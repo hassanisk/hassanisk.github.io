@@ -331,6 +331,20 @@ a:focus {
   background-color: {{ site.color.links }};
 }
 
+.btn-reference {
+  border: 1px solid {{ site.color.reference }};
+  color: {{ site.color.reference }};
+  background-color: transparent;
+}
+
+.btn-reference:hover,
+.btn-reference:focus {
+  border: 1px solid {{ site.color.reference }};
+  outline: 0;
+  color: {{ site.color.primary-dark }};
+  background-color: {{ site.color.reference }};
+}
+
 ul.banner-social-buttons {
   margin-top: 0;
 }
