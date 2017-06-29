@@ -297,8 +297,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .movie-section {
@@ -312,8 +312,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .paws-section {
@@ -327,8 +327,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .pocket-section {
@@ -342,8 +342,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .keyboard-section {
@@ -357,8 +357,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -480,4 +480,12 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.lEye{
+  width: 95px;
+  position: absolute;
+  left: 5px;
+  top: 507px;
+  border-radius: 100px;
 }
