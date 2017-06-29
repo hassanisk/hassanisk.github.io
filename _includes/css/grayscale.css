@@ -286,11 +286,12 @@ a:focus {
   }
 }
 
-.parallex-section {
+.alien-section {
   width: 100%;
   padding: 50px 0;
   color: #fff;
   background-color: {{ site.color.primary-dark }};
+  background: url(/img/alien-bg.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -300,25 +301,69 @@ a:focus {
    background-size: cover;
 }
 
-.alien{
-  background: url(/img/alien-bg.jpg) no-repeat center center scroll;
-}
-
-.movie{
+.movie-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background-color: {{ site.color.primary-dark }};
   background: url(/img/movie-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
 
-.paws{
+.paws-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background-color: {{ site.color.primary-dark }};
   background: url(/img/paws-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
 
-.pocket{
+.pocket-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background-color: {{ site.color.primary-dark }};
   background: url(/img/pocket-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
 
-.keybord{
-  background: url(/img/parallex-bg.jpg) no-repeat center center scroll;
+.keyboard-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background-color: {{ site.color.primary-dark }};
+  background: url(/img/keyboard-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
+
+
+
+
 
 
 #map {
