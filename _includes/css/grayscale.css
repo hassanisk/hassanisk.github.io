@@ -297,8 +297,9 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
@@ -313,29 +314,15 @@ a:focus {
     padding-top: 200px;
   }
 
-  .download-section, .project-section, .parallex-section {
+  .download-section, .project-section {
     padding: 100px 0;
   }
-
-  @media(min-width:767px) {
-    .content-section {
-      padding-top: 200px;
-    }
-
-    .download-section, .project-section {
-      padding: 100px 0;
-    }
 
   #map {
     height: 400px;
     margin-top: 250px;
   }
-  .parallex-section{
-    display: none;
-  }
 }
-
-
 
 .btn {
   text-transform: uppercase;
