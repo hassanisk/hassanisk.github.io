@@ -313,15 +313,29 @@ a:focus {
     padding-top: 200px;
   }
 
-  .download-section, .project-section {
+  .download-section, .project-section, .parallex-section {
     padding: 100px 0;
   }
+
+  @media(min-width:767px) {
+    .content-section {
+      padding-top: 200px;
+    }
+
+    .download-section, .project-section {
+      padding: 100px 0;
+    }
 
   #map {
     height: 400px;
     margin-top: 250px;
   }
+  .parallex-section{
+    display: none;
+  }
 }
+
+
 
 .btn {
   text-transform: uppercase;
