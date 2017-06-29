@@ -482,6 +482,10 @@ body {
   webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+.relative{
+  position: relative;
+}
+
 .lEye{
   width: 95px;
   position: absolute;
