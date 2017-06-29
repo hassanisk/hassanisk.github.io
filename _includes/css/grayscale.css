@@ -290,7 +290,6 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: #fff;
-  background: url(/img/parallex-bg.jpg) no-repeat center center scroll;
   background-color: {{ site.color.primary-dark }};
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,8 +297,27 @@ a:focus {
   -o-background-size: cover;
   background-attachment: fixed;
    background-position: center;
-   background-repeat: no-repeat;
    background-size: cover;
+}
+
+.alien{
+  background: url(/img/alien-bg.jpg) no-repeat center center scroll;
+}
+
+.movie{
+  background: url(/img/movie-bg.jpg) no-repeat center center scroll;
+}
+
+.paws{
+  background: url(/img/paws-bg.jpg) no-repeat center center scroll;
+}
+
+.pocket{
+  background: url(/img/pocket-bg.jpg) no-repeat center center scroll;
+}
+
+.keybord{
+  background: url(/img/parallex-bg.jpg) no-repeat center center scroll;
 }
 
 
