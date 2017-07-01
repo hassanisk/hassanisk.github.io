@@ -362,9 +362,12 @@ a:focus {
 }
 
 
-@media(max-width:767px) {
+@media(max-width:800px) {
 #paw, #alien, #keyboard, #pocket, #movie{
   display: none;
+}
+.intro-body{
+  background: none;
 }
 }
 
