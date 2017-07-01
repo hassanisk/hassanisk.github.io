@@ -366,7 +366,7 @@ a:focus {
 #paw, #alien, #keyboard, #pocket, #movie{
   display: none;
 }
-.intro-body{
+.intro{
   background: none;
 }
 }
